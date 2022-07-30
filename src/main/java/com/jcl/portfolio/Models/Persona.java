@@ -33,7 +33,7 @@ public class Persona implements Serializable{
     private Long idUser;
 
     @NotNull
-    @Size(min = 1, max = 50, message = "no cumple con la longitud")
+    @Size(min = 1, max = 50, message = "NO CUMPLE")
     @Column(name = "nombre")
     private String nombre;
 
